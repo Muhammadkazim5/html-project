@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.info {
+    background: #707070;
+}
+
+.btn .bt {
+    background-color: #EC2229;
+}
+
+.btn button.bt:hover {
+    background-color: #034A6B;
+}
+
+.hero {
+    background-image: url('https://mooketsi.webdesigns.pk/wp-content/uploads/2023/11/business-couple-at-the-cafe-2021-12-13-22-37-57-utc.jpg');
+    position: relative;
+    height: 100vh;
+}
+
+.hero .bt {
+    background-color: #EC2229;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.hero button.bt:hover {
+    background-color: white;
+    color: #EC2229;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    background: #034A6B;
+    opacity: 0.5;
+}
+
+.bttn .bt {
+    background-color: #EC2229;
+}
+
+.bttn button.bt:hover {
+    background-color: #034A6B;
+}
+
+.hero,
+.icon,
+h1,
+p,
+button {
+    z-index: 1;
+}
+
+.red {
+    background: #EC2229;
+}
+
+
+/* .center {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+.circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px #0000001a;
+}
+
+.pulse {
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+    0% {
+        box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+    }
+}
+
+.profile {
+    background-image: url('https://mooketsi.webdesigns.pk/wp-content/uploads/2023/11/three-young-business-professionals-standing-togeth-2022-02-02-21-53-45-utc.jpg');
+    position: relative;
+    background-attachment: fixed;
+}
+
+.profile::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    background-color: #034A6B;
+    opacity: 0.5;
+}
+
+.profile,
+h1,
+span,
+p,
+button {
+    z-index: 1;
+    position: relative;
+}
+
+.poster {
+    background-image: url('https://mooketsi.webdesigns.pk/wp-content/uploads/2023/11/taking-on-the-business-world-with-the-right-techno-2022-02-02-03-57-35-utc.jpg');
+    position: relative;
+    background-attachment: fixed;
+}
+
+.poster::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: #034A6B;
+    opacity: 0.5;
+}
+
+.poster,
+img,
+h1,
+h2,
+h3,
+p,
+button {
+    z-index: 1;
+    position: relative;
+}
+
+.swiper {
+    width: 100%;
+    /* height: 300px; */
+}
+
+.swiper-slide {
+    height: 300px;
+}
+
+.image-name {
+    z-index: 1;
+    position: absolute;
+    bottom: -100px;
+}
+
+.image-name h4 {
+    color: #034A6B;
+}
+
+.copyright .socialicon i {
+    background-color: #fff;
+    color: #034A6B;
+}
+
+.socialicon .fb:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.socialicon .tw:hover {
+    background-color: #2e80a7;
+    color: #fff;
+}
+
+.socialicon .lin:hover {
+    background-color: #2e80a7;
+    color: #fff;
+}
+
+.socialicon .go:hover {
+    background-color: #f03c42;
+    color: #fff;
+}
+
+
+/* info */
+
+.info .socialicon i {
+    color: #fff;
+}
+
+.socialicon .info-f:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.socialicon .info-t:hover {
+    background-color: #2e80a7;
+    color: #fff;
+}
+
+.socialicon .info-l:hover {
+    background-color: #2e80a7;
+    color: #fff;
+}
+
+.socialicon .info-g:hover {
+    background-color: #f03c42;
+    color: #fff;
+}
+
+button.b {
+    background-color: #EC2229;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+button.b:hover {
+    background: #fff;
+    color: #EC2229;
+}
+
+.exp-image {
+    background-image: url('https://mooketsi.webdesigns.pk/wp-content/uploads/2023/11/multiracial-business-team-having-a-meeting-in-the-2022-09-28-23-24-28-utc.jpg');
+    background-attachment: fixed;
+    position: relative;
+}
+
+.cart {
+    background: white;
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    z-index: 1;
+    margin: auto 0;
+    left: 50%;
+    top: 25%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.foot-card {
+    border-radius: 10px;
+}
+
+.aut-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.about,
+.bttn {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+@media only screen and (width<992px) {
+    .info {
+        display: none;
+    }
+}
+
+@media only screen and (width<772px) {
+    .ut,
+    .icon,
+    button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .author,
+    .name {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .profile,
+    p {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .blog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .test-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .post {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footer h2,
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .footer img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .foot-card {
+        width: 450px;
+    }
+    .exp-card,
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cart {
+        position: absolute;
+        width: 300px;
+        top: 110%;
+        left: -0%;
+        bottom: 0;
+        margin-left: 100px;
+        height: 114px;
+    }
+    .poster,
+    .post-img img {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .aut-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .author,
+    .bttn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
